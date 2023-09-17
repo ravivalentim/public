@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html {
+    background-color: #030303ec;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 1px;
+    padding-left: 15px;
+}
+
+li img {
+    vertical-align: middle;
+
+}
+#container {
+    border-radius: 6px;
+    background-color: #232222ec;
+    width: 320px;
+    height: 690px;
+    display: flex;
+    flex-flow: column;
+}
+
+#image-container {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
+
+img {
+    width: 100px;
+    height: 110px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    border-radius: 50%;
+}
+
+#personal-container {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+#name-h2 {
+    margin-top: 3px;
+    color:#ffffff;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#career-h3 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 17px;
+    color: #ffffff;
+    width: auto;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+#phrase-p {
+    margin-top: 2px;
+    color:#ffffff;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    width: auto;
+    text-align: center;
+}
+
+.line {
+    background-color: #474747ec;
+    width: auto;
+    height: 1px;
+    margin-top: 6px;
+}
+
+#academy-info {
+    width: auto;
+}
+
+#academic-title-h2 {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+#university-h3 {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#course-h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+
+}
+
+#contact-title {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+
+#contact-container {
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+#email-container {
+    width: 34px;
+    height: 34px;
+}
+
+#github-container {
+    width: 34px;
+    height: 34px;
+}
+
+#linkedin-container {
+    width: 34px;
+    height: 34px;
+}
+
+#about {
+    display: grid;
+}
